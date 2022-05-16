@@ -1,0 +1,21 @@
+.pointB {
+    column-count: 5;
+}
+
+@media (max-width: 1010px) {	
+    .pointB {
+        column-count: 4;  
+    }
+}
+
+@media (max-width: 790px) {	
+    .pointB {
+        column-count: 3;  
+    }
+}
+
+@media (max-width: 570px) {	
+    .pointB {
+        column-count: 2;  
+    }
+}

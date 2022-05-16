@@ -1,0 +1,18 @@
+h1 {
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    padding-bottom: 1%;
+}
+p {
+    padding-top: 1%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+.pointB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 990px) {	
+    .pointB{
+        flex-direction: column;
+        
+    }
+    .colcenter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

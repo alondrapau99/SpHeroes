@@ -1,0 +1,38 @@
+<h1 class="text-center text-white">Los comics de superhéroes más famosos
+  <br><small>Marvel y DC</small></h1>
+
+<div class="imgtop">
+  <div class="half50 card text-white bg-warning mb-3">
+    <h1>DC</h1><br>
+    <img src="../../assets/img/dc/dc.jpg" class="card-img-top img80" alt="...">
+  </div>
+
+  <div class="half50 card text-white bg-warning mb-3">
+    <h1>MARVEL</h1><br>
+    <img src="../../assets/img/marvel/marvel.jpg" class="card-img-top img80" alt="...">
+  </div>
+</div><br><br><br>
+
+<div id="row" class="card-columns">
+
+  <div class="half45">
+    <div class="card" *ngFor="let c of comicsDC">
+      <img src="{{c.img}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{c.nombre}}</h5>
+        <p class="card-text">{{c.info}} </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="half45">
+    <div class="card" *ngFor="let c of comicsMarvel">
+      <img src="{{c.img}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{c.nombre}}</h5>
+        <p class="card-text">{{c.info}} </p>
+      </div>
+    </div>
+  </div>
+
+</div>
